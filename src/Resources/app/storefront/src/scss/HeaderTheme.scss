@@ -1,0 +1,54 @@
+.header-main {
+    .container {
+        width: 1004px;
+        left: 138px;
+        top: 0px;
+        height: 84px;
+    }
+    .top-bar{
+        display: none !important;
+    }
+}
+
+
+.header-logo-picture {
+    top: 30px;
+    left: 170px;
+    width: 128px;
+    height: 23px;
+}
+
+.header-search-input {
+    max-width: 96px;
+    height: 18px;
+    border: none;
+    color: #d2a371;
+
+    .input {
+        width: 10px;
+        color: #d2a371 !important;
+    }
+
+}
+
+
+
+.header-search {
+    .form-control::placeholder {
+        color: #d2a371 !important;
+    }
+
+    .input-group {
+        flex-direction: row-reverse;
+        align-items: center;
+
+        .header-search-btn {
+            border: none;
+            transform: scaleX(-1);
+
+            .img {
+                filter: brightness(0) saturate(100%)
+            }
+        }
+    }
+}
